@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Login Experience</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="scene-container"></div>
+
+    <div id="login-overlay" class="hidden">
+        <div class="login-buttons">
+            <button class="login-btn github-btn" data-type="github">
+                <span class="btn-text">Login with GitHub</span>
+            </button>
+            <button class="login-btn google-btn" data-type="google">
+                <span class="btn-text">Login with Google</span>
+            </button>
+            <button class="login-btn email-btn" data-type="email">
+                <span class="btn-text">Email & Password</span>
+            </button>
+            <button class="login-btn guest-btn" data-type="guest">
+                <span class="btn-text">Continue as Guest</span>
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>

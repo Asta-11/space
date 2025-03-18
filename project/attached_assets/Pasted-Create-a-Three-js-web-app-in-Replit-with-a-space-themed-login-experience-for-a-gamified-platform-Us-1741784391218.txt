@@ -1,0 +1,28 @@
+Create a Three.js web app in Replit with a space-themed login experience for a gamified platform. Use HTML, CSS, and JavaScript, and structure it with the following features:
+
+1. **Project Setup**:
+   - Use an HTML/CSS/JS repl with Three.js included via a CDN (e.g., from unpkg or jsdelivr).
+   - Split the code into three files: 'index.html', 'style.css', and 'script.js'.
+
+2. **Initial Scene (Flying Spaceship)**:
+   - In 'script.js', start with a 3D scene featuring:
+     - A starry background (particle system with 2000+ stars scattered across space).
+     - A 3D spaceship model (use a simple cone or box geometry as a placeholder) flying through space with smooth animation (e.g., moving forward with slight rotation).
+   - Make the spaceship clickable: when clicked, transition the camera dynamically to an astronaut’s point of view inside the cockpit.
+
+3. **Cockpit Scene (Login Interface)**:
+   - After clicking the spaceship, animate the camera to move inside the ship (e.g., zoom toward the spaceship and stop at a close position).
+   - Display a 3D cockpit environment with:
+     - A simple interior (e.g., a plane or box for the control panel).
+     - Four interactive 3D buttons on the control panel, styled as part of the cockpit, representing login options: "GitHub," "Google," "Email & Password," and "Guest."
+   - Use HTML overlays styled in 'style.css' for the button text, positioned over the 3D buttons, and make them clickable to simulate login actions (for now, just log a message to the console for each option).
+
+4. **Styling and Animation**:
+   - In 'style.css', set a black background for the body and style the HTML login buttons with a futuristic, neon look (e.g., glowing borders, bold fonts).
+   - Animate the spaceship flying (e.g., oscillating position or rotation) and ensure a smooth camera transition to the cockpit view using Three.js.
+
+5. **Interactivity**:
+   - Use Three.js raycasting to detect clicks on the spaceship in the initial scene.
+   - Disable camera controls during the transition for a cinematic effect.
+
+Make sure the app runs in Replit’s preview window with no errors. Provide a basic working version that logs login selections to the console, which I can expand later.
